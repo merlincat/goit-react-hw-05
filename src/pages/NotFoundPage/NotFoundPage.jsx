@@ -3,7 +3,7 @@ import HomePage from '../HomePage/HomePage';
 const NotFoundPage = () => {
   return (
     <div>
-      <Link to="/">Home</Link>
+      <Link to="/">Back to home</Link>
 
       <Routes>
         <Route path="/" element={<HomePage />} />

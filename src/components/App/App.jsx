@@ -1,4 +1,3 @@
-import { useState, useEffect } from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 
 import css from './App.module.css';
@@ -10,7 +9,6 @@ import MovieCast from '../MovieCast/MovieCast';
 import MovieReviews from '../MovieReviews/MovieReviews';
 
 const App = () => {
-  // const { genreId, authorName } = useParams();
   return (
     <div className={css.container}>
       <nav className={css.nav}>
@@ -39,7 +37,3 @@ export default App;
 // eyJhbGciOiJIUzI1NiJ9
 //   .eyJhdWQiOiIwMDE1ZDU1ZmJmNTJkZGJiMzgwYmY3OTRkMWQ5ZjE2ZCIsInN1YiI6IjY1ZjVkYmFhZDRkNTA5MDE2NGFiNGJhYSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ
 //   .JLcjF8iHOjbCLIG4N99UwwNYG - BrarS14qIyT4eAAw8;
-
-// https://image.tmdb.org/t/p/w500/...
-
-// import { BrowserRouter } from 'react-router-dom';
